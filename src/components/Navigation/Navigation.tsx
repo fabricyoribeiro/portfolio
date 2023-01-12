@@ -1,6 +1,5 @@
 import Navigator from "../Navigator/Navigator";
 
-
 export default function Navigation(){
   return (
     <div className="bg-[#201e2e] border-b-[1px] border-b-[#55507aaa]">

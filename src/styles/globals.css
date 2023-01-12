@@ -28,12 +28,12 @@ html, body{
 
 @keyframes floating {
     0% { transform: translate(0,  0px); }
-    50%  { transform: translate(0, 15px) }
+    50%  { transform: translate(0, 20px) }
     100%   { transform: translate(0, -0px); }   
 }
 
 .float-animation{
-  animation: floating 3s infinite ease-in-out;
+  animation: floating 4s infinite ease-in-out;
 }
 
 .animation-delay-meio{

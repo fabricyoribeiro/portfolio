@@ -37,7 +37,7 @@ export default function Home() {
             <div className="w-1/2 flex items-center">
               <ul className="w-[80%] m-auto ">
                 <li className=" float-animation animation-delay-meio">
-                  <div className="w-fit bg-[#201e2e] p-3">
+                  <div className="w-fit bg-[#201e2e] p-3 hover:scale-110 transition-all duration-700">
                     <Image
                       src={JsImage}
                       alt="ss"
@@ -47,8 +47,8 @@ export default function Home() {
                     />
                   </div>
                 </li>
-                <li className="flex justify-end float-animation animation-delay-um">
-                  <div className="w-fit bg-[#201e2e] p-3">
+                <li className="flex justify-end float-animation animation-delay-um ">
+                  <div className="w-fit bg-[#201e2e] p-3 hover:scale-110 transition-all duration-700">
                     <Image
                       src={CssImage}
                       alt="ss"
@@ -59,7 +59,7 @@ export default function Home() {
                   </div>
                 </li>
                 <li className="flex justify-around float-animation animation-delay-dois">
-                  <div className="w-fit bg-[#201e2e] p-3">
+                  <div className="w-fit bg-[#201e2e] p-3 hover:scale-110 transition-all duration-700">
                     <Image
                       src={HtmlImage}
                       alt="ss"
