@@ -14,7 +14,7 @@ export default function Navigation() {
         >
           <Navigator href="/" name="Início" />
           <Navigator href="/about" name="Quem sou" />
-          <Navigator href="/contact" name="Contato" />
+          <Navigator href="/knowledge" name="Conhecimentos" />
           <Navigator href="/projects" name="Projetos" />
         </div>
       </nav>
