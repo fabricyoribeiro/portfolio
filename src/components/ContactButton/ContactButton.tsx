@@ -17,7 +17,7 @@ export default function ContactButton(props: ButtonProps) {
       <Link
         href={props.href}
         target="_blank"
-        className="flex justify-center gap-3"
+        className="flex justify-center items-center gap-3"
       >
         {props.title}
         <WhatsappLogo size={30} />
