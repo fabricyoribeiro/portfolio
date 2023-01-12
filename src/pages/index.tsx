@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import ContactButton from '../components/ContactButton/ContactButton'
 import Navigation from '../components/Navigation/Navigation'
 import { CssImage, HtmlImage, JsImage } from '../images/images'
 
@@ -31,17 +32,7 @@ export default function Home() {
               </h1>
               <h2 className="text-3xl">Desenvolvedor Web Full Stack</h2>
 
-              <ul>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-                <li>
-                  <a href=""></a>
-                </li>
-              </ul>
+              <ContactButton href='https://wa.me/5587991770638' title='Entrar em contato' />
             </div>
             <div className="w-1/2 flex items-center">
               <ul className="w-[80%] m-auto ">
