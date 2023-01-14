@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import ContactButton from '../components/ContactButton/ContactButton'
+import Footer from '../components/Footer/Footer'
 import Navigation from '../components/Navigation/Navigation'
 import { CssImage, HtmlImage, JsImage } from '../images/images'
 
@@ -75,6 +76,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      {/* <Footer /> */}
     </div>
   )
 }
