@@ -13,7 +13,7 @@ export default function Home() {
       >
         <div
           className={`
-          bg-gradient-to-b from-[rgba(14,12,27,0.83)] to-[rgba(13,12,20,0.81)] h-full   text-xl text-gray-300
+          bg-gradient-to-b from-[rgba(14,12,27,0.83)] to-[rgba(13,12,20,0.81)] h-full w-full  text-xl text-gray-300
           flex justify-center
         `}
         >
@@ -22,7 +22,7 @@ export default function Home() {
           w-[70vw]  m-auto  flex
           `}
           >
-            <div className="flex flex-col justify-center">
+            <div className="flex flex-col justify-center ">
               <span className="text-2xl">Olá, me chamo</span>
               <h1
                 className={`

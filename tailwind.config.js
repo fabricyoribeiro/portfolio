@@ -21,6 +21,9 @@ module.exports = {
       // }
       animation: {
         'animation-delay': 'animation-delay: 4s'
+      },
+      fontFamily: {
+        'archivo': ['Archivo', 'sans-serif']
       }
     },
   },

@@ -18,7 +18,7 @@ export default function Knowledge(){
               Images.map( (image, index) => {
                 return (
                   <article key={index} className="bg-[#0e0e25] w-fit p-4 
-                    outline-[hsl(297,46%,53%)] hover:outline hover:outline-1 transition-all duration-700 
+                    outline-[#6e33a5] hover:outline hover:outline-1 transition-all duration-700 
                   ">
                     <Image key={index} src={image} width={60} height={60} alt="" />
                   </article>
