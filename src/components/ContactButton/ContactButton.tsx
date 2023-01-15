@@ -12,6 +12,7 @@ export default function ContactButton(props: ButtonProps) {
       className=" p-4 w-[60%] mt-10 rounded border-[1px] border-gray-300
      transition-all duration-700
      hover:bg-[#9792b54d] hover:w-[68%] hover:text-white
+     max-md:mx-auto max-sm:w-[90%] max-sm:p-2
     "
     >
       <Link

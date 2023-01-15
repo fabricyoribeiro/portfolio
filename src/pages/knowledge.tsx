@@ -6,7 +6,7 @@ export default function Knowledge(){
 
   return (
     <div className="bg-[#201e2e] ">
-      <Navigation />
+      <Navigation  />
       <div className="w-[70%] m-auto flex justify-center flex-col gap-4 items-center h-[91vh] text-gray-300 text-xl">
         <label className="text-4xl w-full text-white font-bold">Experiência e Tecnologias</label>
         <div className="grid grid-cols-2 ">
