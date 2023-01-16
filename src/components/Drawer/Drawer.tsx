@@ -33,7 +33,7 @@ export default function Drawer() {
         </div>
       ) : (
         <button
-          className={`text-white text-3xl pr-5 pt-3`}
+          className={`text-white text-3xl pr-5 pt-6`}
           onClick={() => {
             setShow(true)
           }}
