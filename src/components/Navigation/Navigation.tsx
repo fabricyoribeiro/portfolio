@@ -15,8 +15,8 @@ export default function Navigation() {
       "
     >
       <nav
-        className="flex w-[80vw] m-auto justify-between h-[calc(9vh-2px)] items-center
-        max-md:w-full max-md:px-5
+        className="flex w-[80vw] m-auto justify-between h-[calc(11vh-2px)] items-center
+        max-md:w-full max-md:px-5 max-md:h-[calc(9vh-2px)]
       "
       >
         <span className="text-[#9c99ab] font-bold text-lg">

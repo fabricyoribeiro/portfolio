@@ -23,7 +23,7 @@ export default function Knowledge(){
           ">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, eligendi aperiam officia eius praesentium repellendus facere, et similique enim magni obcaecati vero nisi ipsam debitis voluptates repudiandae, nemo numquam nulla.
           </p>
-          <div className="flex flex-row justify-center flex-wrap w-[100%] m-auto gap-4
+          <div className="flex flex-row justify-center flex-wrap w-[100%] m-auto gap-3
             max-md:mb-10
           ">
             {
