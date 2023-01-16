@@ -13,7 +13,7 @@ export default function Knowledge(){
       
       ">
         <label className="text-4xl w-full text-white font-bold 
-          max-md:text-center max-md:mt-20
+          max-md:text-center max-md:mt-28
         ">Experiência e Tecnologias</label>
         <div className="grid grid-cols-2 
           max-md:grid-cols-1 max-md:text-center max-md:gap-5
@@ -32,7 +32,7 @@ export default function Knowledge(){
                   <article key={index} className="bg-[#0e0e25] w-fit p-4 outline-[#6e33a5] flex
                     hover:outline hover:outline-1 transition-all duration-700 
                   ">
-                    <Image key={index} src={image} width={60} height={60} alt="" />
+                    <Image key={index} src={image} width={80} height={80} alt="" />
                   </article>
                 )
               })
