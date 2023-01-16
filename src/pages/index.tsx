@@ -15,7 +15,7 @@ export default function Home() {
       >
         <div
           className={`
-          bg-gradient-to-br from-[rgba(14,12,27,0.83)] to-[rgba(13,12,20,0.81)] h-full w-full  text-xl text-gray-300
+          bg-gradient-to-br from-[rgba(14,12,27,0.83)] to-[rgba(13,12,20,0.81)] h-full w-full  text-xl text-gray-200
           flex justify-center max-md:to-[rgba(64,56,114,0.81)]
         `}
         >

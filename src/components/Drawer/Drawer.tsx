@@ -9,7 +9,7 @@ export default function Drawer() {
     <aside className="fixed right-0 top-0 z-20 ">
       {show ? (
         <div
-          className={`w-[55vw] bg-[#534b80] h-[100vh] p-5 
+          className={`w-[75vw] bg-[#534b80] h-[100vh] p-5 
           `}
         >
           <ul className='flex flex-col gap-6 '>
@@ -33,7 +33,7 @@ export default function Drawer() {
         </div>
       ) : (
         <button
-          className={`text-white text-3xl pr-5 pt-4`}
+          className={`text-white text-3xl pr-5 pt-3`}
           onClick={() => {
             setShow(true)
           }}
