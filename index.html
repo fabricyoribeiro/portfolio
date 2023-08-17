@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,22 +14,23 @@
     <title>Document</title>
     <style></style>
   </head>
-  <body class="font-archivo">
-    <nav id="nav" class="fixed w-full flex justify-center top-0 z-10  left-1/2 -translate-x-1/2 ">
-      <div
-        class=" justify-between items-center flex w-full max-w-6xl h-24 "
-      >
+  <body class="font-archivo ">
+    <nav
+      id="nav"
+      class="fixed w-full flex justify-center top-0 z-10 left-1/2 -translate-x-1/2"
+    >
+      <div class="justify-between items-center flex w-full max-w-6xl h-24">
         <span class="text-green text-2xl font-semibold">Fabricyo Ribeiro</span>
         <ul class="text-gray-300 text-xl flex gap-8">
-          <li><a href="">Inicio</a></li>
-          <li><a href="">Quem sou</a></li>
+          <li><a href="#home">Inicio</a></li>
+          <li><a href="#about">Quem sou</a></li>
           <li><a href="">Experiências</a></li>
           <li><a href="">Projetos</a></li>
           <li><a href="">Conhecimentos</a></li>
         </ul>
       </div>
     </nav>
-    <main class="h-scren">
+    <main id="home" class="h-scren">
       <div
         class="absolute justify-center h-screen w-full max-w-6xl left-1/2 -translate-x-1/2 flex flex-col"
       >
@@ -92,7 +93,32 @@
 
       <canvas class="background" style="background-color: #111111"> </canvas>
     </main>
-    <section class="h-screen bg-darkgray"></section>
+    <section
+      id="about"
+      class="h-screen bg-darkgray flex justify-center items-center"
+    >
+      <div class="flex gap-20">
+        <div class="relative w-[21rem] h-[24rem] border-[10px] border-lightgreen">
+          <img
+            src="public/eu.jpg"
+            alt=""
+            srcset=""
+            class="absolute bottom-8 left-8 border-[#111111] border-[10px] box-content"
+          />
+        </div>
+        <div class="flex flex-col gap-4">
+          <h2 class="text-green text-xl">Quem sou</h2>
+          <h1 class="text-white text-4xl font-semibold">Fabricyo R. Silva</h1>
+          <h2 class="text-lightgray text-xl">Desenvolvedor Web Full Stack</h2>
+          <p class="text-gray-400 w-full max-w-xl text-xl">
+            Meu nome é Fabricyo Ribeiro Silva, sou o criador do eFront.
+            Atualmente sou freelancer como Frontend Developer e UI Designer.
+            Desenvolvo interfaces modernas e de alta qualidade, concentrado em
+            performance, animações, responsividade e SEO.
+          </p>
+        </div>
+      </div>
+    </section>
     <script src="src/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
   </body>

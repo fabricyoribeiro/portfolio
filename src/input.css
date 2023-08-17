@@ -2,6 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Estilos para a barra de rolagem */
+::-webkit-scrollbar {
+  width: 8px; /* Largura da barra de rolagem */
+}
+
+/* Estilo do trilho da barra de rolagem */
+::-webkit-scrollbar-track {
+  background: #151515; /* Cor de fundo do trilho */
+}
+
+/* Estilo do polegar (a parte deslizante) da barra de rolagem */
+::-webkit-scrollbar-thumb {
+  background: #33a365; /* Cor do polegar */
+  border-radius: 6px; /* Borda arredondada do polegar */
+}
+
+/* Estilo do polegar quando hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #03A049; /* Cor do polegar ao passar o mouse */
+}
+
 /* html,
 body {
   margin: 0;
