@@ -4,5 +4,9 @@
   },
   "dependencies": {
     "particlesjs": "^2.2.3"
+  },
+  "scripts": {
+    "start": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "deploy": "git add . && git commit -m \"deply\" && git push origin main" 
   }
 }
