@@ -14,14 +14,17 @@
     <title>Document</title>
     <style></style>
   </head>
-  <body class="font-archivo ">
+  <body class="font-archivo">
     <nav
       id="nav"
       class="fixed w-full flex justify-center top-0 z-10 left-1/2 -translate-x-1/2"
     >
-      <div class="justify-between items-center flex w-full max-w-6xl h-24">
+      <div
+        class="justify-between items-center flex w-full max-w-6xl h-16 lg:h-24 px-4"
+      >
         <span class="text-green text-2xl font-semibold">Fabricyo Ribeiro</span>
-        <ul class="text-gray-300 text-xl flex gap-8">
+        <img src="src/icons/menu.svg" class="lg:hidden" alt="" />
+        <ul class="text-gray-300 text-xl flex gap-8 max-lg:hidden">
           <li><a href="#home">Inicio</a></li>
           <li><a href="#about">Quem sou</a></li>
           <li><a href="">Experiências</a></li>
@@ -30,13 +33,17 @@
         </ul>
       </div>
     </nav>
-    <main id="home" class="h-scren">
+    <main id="home" class="h-screen">
       <div
-        class="absolute justify-center h-screen w-full max-w-6xl left-1/2 -translate-x-1/2 flex flex-col"
+        class="absolute justify-center h-screen w-full max-w-6xl left-1/2 -translate-x-1/2 flex flex-col px-4 max-lg:mt-6"
       >
-        <div class="flex">
-          <div class="flex flex-col justify-center items-start gap-10">
-            <h1 class="text-white text-5xl leading-[56px]">
+        <div class="flex max-lg:justify-center">
+          <div
+            class="flex flex-col justify-center items-start gap-10 max-lg:max-w-3xl max-lg:text-center"
+          >
+            <h1
+              class="text-white text-3xl lg:text-5xl leading-10 lg:leading-[56px]"
+            >
               Transformando ideias em realidade através de código e design de
               <span class="text-green">qualidade</span>.
             </h1>
@@ -46,16 +53,16 @@
               concorrência.
             </h2>
             <button
-              class="bg-lightgreen text-white text-xl w-60 p-4 rounded duration-500 hover:w-64"
+              class="bg-lightgreen text-white text-xl w-60 p-4 rounded duration-500 max-lg:self-center hover:w-64"
             >
               <a href="">GitHub</a>
             </button>
           </div>
-          <div>
+          <div class="max-lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="500"
-              height="500"
+              width="450"
+              height="450"
               viewBox="0 0 550 550"
               fill="none"
             >
@@ -95,22 +102,26 @@
     </main>
     <section
       id="about"
-      class="h-screen bg-darkgray flex justify-center items-center"
+      class="lg:h-screen max-lg:py-8 bg-darkgray flex justify-center items-center px-4"
     >
-      <div class="flex gap-20">
-        <div class="relative w-[21rem] h-[24rem] border-[10px] border-lightgreen">
+      <div
+        class="flex flex-col gap-10 max-lg:items-center lg:gap-20 lg:flex-row"
+      >
+        <div
+          class="relative flex justify-center w-[16rem] h-[19rem] lg:w-[21rem] lg:h-[24rem] border-[6px] lg:border-[10px] border-lightgreen  pr-8"
+        >
           <img
             src="src/public/eu.jpg"
             alt=""
             srcset=""
-            class="absolute bottom-8 left-8 border-[#111111] border-[10px] box-content"
+            class="absolute bottom-4 left-4 lg:bottom-8 lg:left-8 border-[#111111] border-[10px] box-content"
           />
         </div>
         <div class="flex flex-col gap-4">
           <h2 class="text-green text-xl">Quem sou</h2>
-          <h1 class="text-white text-4xl font-semibold">Fabricyo R. Silva</h1>
+          <h1 class="text-white text-3xl font-semibold">Fabricyo R. Silva</h1>
           <h2 class="text-lightgray text-xl">Desenvolvedor Web Full Stack</h2>
-          <p class="text-gray-400 w-full max-w-xl text-xl">
+          <p class="text-gray-400 w-full max-w-2xl lg:max-w-xl text-xl">
             Meu nome é Fabricyo Ribeiro Silva, sou o criador do eFront.
             Atualmente sou freelancer como Frontend Developer e UI Designer.
             Desenvolvo interfaces modernas e de alta qualidade, concentrado em
@@ -120,38 +131,65 @@
       </div>
     </section>
 
-    <section id="knowledge" class="bg-black h-screen flex justify-center items-center ">
-      <div class="w-full max-w-6xl grid grid-cols-2 gap-8 items-center">
+    <section
+      id="knowledge"
+      class="bg-black lg:h-screen flex justify-center items-center px-4 py-8"
+    >
+      <div
+        class="w-full max-w-2xl lg:max-w-6xl grid lg:grid-cols-2 gap-4 lg:gap-8 items-center"
+      >
         <article class="">
-          <h1 class="text-4xl text-white mb-8">Experiência e Tecnologias</h1>
-          <p class="text-xl text-gray-400 leading-relaxed ">Lorem ipsum dolor, sit amet consectetur officia adipisicing elit. Ipsa, eligendi aperiam officia eius praesentium repellendus facere, et similique en
-            asdim magni obcaecati vero nisi ipsam debitis voluptates repudiandae, nemo numquam nulla.</p>
+          <h1 class="text-3xl lg:text-4xl text-white mb-8">
+            Experiência e Tecnologias
+          </h1>
+          <p class="text-xl text-gray-400 leading-relaxed">
+            Lorem ipsum dolor, sit amet consectetur officia adipisicing elit.
+            Ipsa, eligendi aperiam officia eius praesentium repellendus facere,
+            et similique en asdim magni obcaecati vero nisi ipsam debitis
+            voluptates repudiandae, nemo numquam nulla.
+          </p>
         </article>
 
-        <div class="flex flex-wrap gap-4">
-          <article class="bg-darkgray flex justify-center items-center w-32 h-32 p-4 border border-gray-800">
-            <img src="src/icons/javascript.svg" width="100px" height="100px" alt="">
+        <div class="flex flex-wrap gap-4 max-lg:justify-center">
+          <article
+            class="bg-darkgray flex justify-center items-center w-32 h-32 p-4 border border-gray-800"
+          >
+            <img src="src/icons/javascript.svg" width="70px" alt="" />
           </article>
-          <article class="bg-darkgray flex justify-center items-center w-32 h-32 p-4 border border-gray-800">
-            <img src="src/icons/typescript.svg" alt="">
+          <article
+            class="bg-darkgray flex justify-center items-center w-32 h-32 p-4 border border-gray-800"
+          >
+            <img src="src/icons/typescript.svg" width="70px" alt="" />
           </article>
-          <article class="bg-darkgray flex justify-center items-center w-32 h-32 p-4 border border-gray-800">
-            <img src="src/icons/react.svg" alt="">
+          <article
+            class="bg-darkgray flex justify-center items-center w-32 h-32 p-4 border border-gray-800"
+          >
+            <img src="src/icons/react.svg" width="70px" alt="" />
           </article>
-          <article class="bg-darkgray flex justify-center items-center w-32 h-32 p-4 border border-gray-800">
-            <img src="src/icons/python.svg" width="70" alt="">
+          <article
+            class="bg-darkgray flex justify-center items-center w-32 h-32 p-4 border border-gray-800"
+          >
+            <img src="src/icons/python.svg"  width="60px" alt="" />
           </article>
-          <article class="bg-darkgray flex justify-center items-center w-32 h-32 p-4 border border-gray-800">
-            <img src="src/icons/html.svg" width="70" alt="" >
+          <article
+            class="bg-darkgray flex justify-center items-center w-32 h-32 p-4 border border-gray-800"
+          >
+            <img src="src/icons/html.svg"  width="60px" alt="" />
           </article>
-          <article class="bg-darkgray flex justify-center items-center w-32 h-32 p-4 border border-gray-800">
-            <img src="src/icons/css.svg" width="70" alt="">
+          <article
+            class="bg-darkgray flex justify-center items-center w-32 h-32 p-4 border border-gray-800"
+          >
+            <img src="src/icons/css.svg"  width="60px" alt="" />
           </article>
-          <article class="bg-darkgray flex justify-center items-center w-32 h-32 p-4 border border-gray-800">
-            <img src="src/icons/tailwind.svg" alt="">
+          <article
+            class="bg-darkgray flex justify-center items-center w-32 h-32 p-4 border border-gray-800"
+          >
+            <img src="src/icons/tailwind.svg" width="70px" alt="" />
           </article>
-          <article class="bg-darkgray flex justify-center items-center w-32 h-32 p-4 border border-gray-800">
-            <img src="src/icons/next.svg" alt="">
+          <article
+            class="bg-darkgray flex justify-center items-center w-32 h-32 p-4 border border-gray-800"
+          >
+            <img src="src/icons/next.svg" width="70px" alt="" />
           </article>
         </div>
       </div>
