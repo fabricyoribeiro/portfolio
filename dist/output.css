@@ -699,6 +699,10 @@ video {
   margin-top: 0.5rem;
 }
 
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -810,6 +814,14 @@ video {
   height: 100vh;
 }
 
+.h-28 {
+  height: 7rem;
+}
+
+.h-32 {
+  height: 8rem;
+}
+
 .w-60 {
   width: 15rem;
 }
@@ -820,6 +832,27 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.w-24 {
+  width: 6rem;
+}
+
+.w-2 {
+  width: 0.5rem;
+}
+
+.w-28 {
+  width: 7rem;
+}
+
+.w-32 {
+  width: 8rem;
 }
 
 .max-w-6xl {
@@ -1163,6 +1196,10 @@ video {
   grid-auto-flow: column dense;
 }
 
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -1361,6 +1398,10 @@ video {
 
 .gap-8 {
   gap: 2rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -1801,6 +1842,16 @@ video {
   border-color: rgb(3 160 73 / var(--tw-border-opacity));
 }
 
+.border-gray-400 {
+  --tw-border-opacity: 1;
+  border-color: rgb(156 163 175 / var(--tw-border-opacity));
+}
+
+.border-gray-800 {
+  --tw-border-opacity: 1;
+  border-color: rgb(31 41 55 / var(--tw-border-opacity));
+}
+
 .bg-\[\#111111\] {
   --tw-bg-opacity: 1;
   background-color: rgb(17 17 17 / var(--tw-bg-opacity));
@@ -1819,6 +1870,16 @@ video {
 .bg-lightgreen {
   --tw-bg-opacity: 1;
   background-color: rgb(3 160 73 / var(--tw-bg-opacity));
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 17 17 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .decoration-slice {
@@ -1904,6 +1965,14 @@ video {
 
 .bg-origin-content {
   background-origin: content-box;
+}
+
+.fill-lightgreen {
+  fill: #03A049;
+}
+
+.fill-\[\#0f0\] {
+  fill: #0f0;
 }
 
 .object-contain {
@@ -2015,6 +2084,11 @@ video {
   line-height: 1.75rem;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -2093,6 +2167,18 @@ video {
 
 .leading-\[56px\] {
   line-height: 56px;
+}
+
+.leading-loose {
+  line-height: 2;
+}
+
+.leading-relaxed {
+  line-height: 1.625;
+}
+
+.tracking-wide {
+  letter-spacing: 0.025em;
 }
 
 .text-\[\#336699\]\/\[\.35\] {
@@ -2536,6 +2622,15 @@ body {
 
 .hover\:w-64:hover {
   width: 16rem;
+}
+
+.hover\:bg-lightgreen:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(3 160 73 / var(--tw-bg-opacity));
+}
+
+.hover\:fill-lightgreen:hover {
+  fill: #03A049;
 }
 
 .hover\:font-bold:hover {
