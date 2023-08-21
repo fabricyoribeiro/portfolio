@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+.article {
+  @apply bg-darkgray flex justify-center items-center w-32 h-32 p-4 border border-gray-800 rounded hover:duration-1000 hover:border hover:border-green;
+}
+
+@layer utilities{
+  .shadow-article{
+    box-shadow: 0 0 7px 0px #33A365;
+  }
+}
+
 /* Estilos para a barra de rolagem */
 ::-webkit-scrollbar {
   width: 8px; /* Largura da barra de rolagem */
@@ -20,7 +30,7 @@
 
 /* Estilo do polegar quando hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #03A049; /* Cor do polegar ao passar o mouse */
+  background: #03a049; /* Cor do polegar ao passar o mouse */
 }
 
 /* html,

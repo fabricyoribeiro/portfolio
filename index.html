@@ -19,10 +19,15 @@
       class="fixed w-full flex justify-center top-0 z-10 left-1/2 -translate-x-1/2"
     >
       <div
-        class="justify-between items-center flex w-full max-w-6xl h-16 lg:h-24 px-4 "
+        class="justify-between items-center flex w-full max-w-6xl h-16 lg:h-24 px-4"
       >
         <span class="text-green text-2xl font-semibold">Fabricyo Ribeiro</span>
-        <img src="src/icons/menu.svg" class="lg:hidden" alt="" />
+        <img
+          onclick="openMenu()"
+          src="src/icons/menu.svg"
+          class="lg:hidden"
+          alt=""
+        />
         <ul class="lg:text-gray-300 text-xl flex gap-8 max-lg:hidden">
           <li><a href="#home">Inicio</a></li>
           <li><a href="#about">Quem sou</a></li>
@@ -31,18 +36,26 @@
         </ul>
       </div>
       <div
-        class="hidden max-w-6xl px-4 top-0 left-0 fixed w-screen h-screen bg-darkgray text-xl text-white z-10"
+        class="hidden max-w-6xl px-4 top-0 left-0 fixed w-screen h-screen bg-darkgray text-2xl text-white z-10"
+        id="menu"
       >
-        <div class="flex justify-between items-center pt-4">
-          <span class="text-green text-2xl font-semibold">Fabricyo Ribeiro</span>
-          <img src="src/icons/x.svg" class="lg:hidden" alt="" />
+        <div class="flex justify-between items-center pt-3">
+          <span class="text-green font-semibold"
+            >Fabricyo Ribeiro</span
+          >
+          <img
+            onclick="closeMenu()"
+            src="src/icons/x.svg"
+            class="lg:hidden"
+            alt=""
+          />
         </div>
-        <div class="h-[70vh] flex flex-col justify-center items-center">
-          <ul class=" text-xl flex flex-col justify-center items-center gap-6 ">
-            <li><a href="#home">Inicio</a></li>
-            <li><a href="#about">Quem sou</a></li>
-            <li><a href="">Projetos</a></li>
-            <li><a href="#knowledge">Conhecimentos</a></li>
+        <div class="h-[80vh] flex flex-col justify-center items-center">
+          <ul class=" flex flex-col justify-center items-center gap-6">
+            <li><a href="#home" onclick="closeMenu()">Inicio</a></li>
+            <li><a href="#about" onclick="closeMenu()">Quem sou</a></li>
+            <li><a href="" onclick="closeMenu()">Projetos</a></li>
+            <li><a href="#knowledge" onclick="closeMenu()">Conhecimentos</a></li>
           </ul>
           <button class="bg-lightgreen text-white rounded-full px-6 py-4 mt-12">
             Entrar em contato
@@ -72,7 +85,12 @@
             <button
               class="bg-lightgreen text-white text-xl w-60 p-4 rounded duration-500 max-lg:self-center hover:w-64"
             >
-              <a href="https://github.com/fabricyoribeiro">GitHub</a>
+              <a
+                href="https://github.com/fabricyoribeiro"
+                target="_blank
+              "
+                >GitHub</a
+              >
             </button>
           </div>
           <div class="max-lg:hidden">
@@ -125,7 +143,7 @@
         class="flex flex-col gap-10 max-lg:items-center lg:gap-20 lg:flex-row"
       >
         <div
-          class="relative flex justify-center w-[16rem] h-[19rem] lg:w-[21rem] lg:h-[24rem] border-[6px] lg:border-[10px] border-lightgreen  pr-8"
+          class="relative flex justify-center w-[16rem] h-[19rem] lg:w-[21rem] lg:h-[24rem] border-[6px] lg:border-[10px] border-lightgreen pr-8"
         >
           <img
             src="src/public/eu.jpg"
@@ -139,8 +157,10 @@
           <h1 class="text-white text-3xl font-semibold">Fabricyo R. Silva</h1>
           <h2 class="text-lightgray text-xl">Desenvolvedor Web Full Stack</h2>
           <p class="text-gray-400 w-full max-w-2xl lg:max-w-xl text-xl">
-            Meu nome é Fabricyo Ribeiro Silva.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias iusto illo soluta doloremque dolor vitae at. Consectetur quo odit architecto! Soluta accusantium repudiandae quas earum eum numquam debitis aperiam molestias!
+            Meu nome é Fabricyo Ribeiro Silva. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Molestias iusto illo soluta doloremque
+            dolor vitae at. Consectetur quo odit architecto! Soluta accusantium
+            repudiandae quas earum eum numquam debitis aperiam molestias!
           </p>
         </div>
       </div>
@@ -167,42 +187,42 @@
 
         <div class="flex flex-wrap gap-4 max-lg:justify-center">
           <article
-            class="bg-darkgray flex justify-center items-center w-32 h-32 p-4 border border-gray-800"
+            class="article"
           >
             <img src="src/icons/javascript.svg" width="70px" alt="" />
           </article>
           <article
-            class="bg-darkgray flex justify-center items-center w-32 h-32 p-4 border border-gray-800"
+            class="article"
           >
             <img src="src/icons/typescript.svg" width="70px" alt="" />
           </article>
           <article
-            class="bg-darkgray flex justify-center items-center w-32 h-32 p-4 border border-gray-800"
+            class="article"
           >
             <img src="src/icons/react.svg" width="70px" alt="" />
           </article>
           <article
-            class="bg-darkgray flex justify-center items-center w-32 h-32 p-4 border border-gray-800"
+            class="article"
           >
-            <img src="src/icons/python.svg"  width="60px" alt="" />
+            <img src="src/icons/python.svg" width="60px" alt="" />
           </article>
           <article
-            class="bg-darkgray flex justify-center items-center w-32 h-32 p-4 border border-gray-800"
+            class="article"
           >
-            <img src="src/icons/html.svg"  width="60px" alt="" />
+            <img src="src/icons/html.svg" width="60px" alt="" />
           </article>
           <article
-            class="bg-darkgray flex justify-center items-center w-32 h-32 p-4 border border-gray-800"
+            class="article"
           >
-            <img src="src/icons/css.svg"  width="60px" alt="" />
+            <img src="src/icons/css.svg" width="60px" alt="" />
           </article>
           <article
-            class="bg-darkgray flex justify-center items-center w-32 h-32 p-4 border border-gray-800"
+            class="article"
           >
             <img src="src/icons/tailwind.svg" width="70px" alt="" />
           </article>
           <article
-            class="bg-darkgray flex justify-center items-center w-32 h-32 p-4 border border-gray-800"
+            class="article"
           >
             <img src="src/icons/next.svg" width="70px" alt="" />
           </article>

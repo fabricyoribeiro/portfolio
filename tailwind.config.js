@@ -14,7 +14,8 @@ module.exports = {
       },
       fontFamily: {
         archivo: 'Archivo, sans-serif'
-      }
+      },
+
     },
   },
   plugins: [],

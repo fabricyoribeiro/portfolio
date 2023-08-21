@@ -814,24 +814,16 @@ video {
   height: 4rem;
 }
 
-.h-32 {
-  height: 8rem;
-}
-
 .h-\[19rem\] {
   height: 19rem;
 }
 
-.h-\[70vh\] {
-  height: 70vh;
+.h-\[80vh\] {
+  height: 80vh;
 }
 
 .h-screen {
   height: 100vh;
-}
-
-.w-32 {
-  width: 8rem;
 }
 
 .w-60 {
@@ -1832,11 +1824,6 @@ video {
   border-color: rgb(17 17 17 / var(--tw-border-opacity));
 }
 
-.border-gray-800 {
-  --tw-border-opacity: 1;
-  border-color: rgb(31 41 55 / var(--tw-border-opacity));
-}
-
 .border-lightgreen {
   --tw-border-opacity: 1;
   border-color: rgb(3 160 73 / var(--tw-border-opacity));
@@ -2005,8 +1992,8 @@ video {
   padding-right: 2rem;
 }
 
-.pt-4 {
-  padding-top: 1rem;
+.pt-3 {
+  padding-top: 0.75rem;
 }
 
 .text-left {
@@ -2518,6 +2505,28 @@ video {
   content: var(--tw-content);
 }
 
+.article {
+  display: flex;
+  height: 8rem;
+  width: 8rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.25rem;
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(31 41 55 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(21 21 21 / var(--tw-bg-opacity));
+  padding: 1rem;
+}
+
+.article:hover {
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(51 163 101 / var(--tw-border-opacity));
+  transition-duration: 1000ms;
+}
+
 /* Estilos para a barra de rolagem */
 
 ::-webkit-scrollbar {
@@ -2544,7 +2553,7 @@ video {
 /* Estilo do polegar quando hover */
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #03A049;
+  background: #03a049;
   /* Cor do polegar ao passar o mouse */
 }
 

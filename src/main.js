@@ -1,7 +1,7 @@
 window.onload = function () {
   Particles.init({
     selector: '.background',
-    color: ['#565656'],
+    color: ['#333333'],
     connectParticles: true,
 
     responsive: [
@@ -9,7 +9,7 @@ window.onload = function () {
         breakpoint: 1024,
         options: {
           maxParticles: 80,
-          color: '#565656',
+          color: '#333333',
           connectParticles: true
         }
       },
@@ -17,7 +17,7 @@ window.onload = function () {
         breakpoint: 768,
         options: {
           maxParticles: 50,
-          color: '#565656',
+          color: '#333333',
           connectParticles: true
         }
       },
@@ -40,9 +40,9 @@ window.onload = function () {
   })
 }
 
-window.addEventListener("load", ()=> {
-  alert('Este portfolio ainda está em desenvolvimento :)')
-})
+// window.addEventListener("load", ()=> {
+//   alert('Este portfolio ainda está em desenvolvimento :)')
+// })
 
 window.addEventListener('scroll', showNavOnScroll)
 
@@ -52,4 +52,11 @@ function showNavOnScroll() {
   } else {
     document.querySelector('#nav').classList.remove('bg-[#111111]')
   }
+}
+
+function openMenu(){
+  document.querySelector('#menu').classList.remove('hidden')
+}
+function closeMenu(){
+  document.querySelector('#menu').classList.add('hidden')
 }
