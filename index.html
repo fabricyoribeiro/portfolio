@@ -10,7 +10,6 @@
       href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
-    <!-- <link rel="stylesheet" href="src/input.css" /> -->
     <title>Document</title>
     <style></style>
   </head>
@@ -20,17 +19,35 @@
       class="fixed w-full flex justify-center top-0 z-10 left-1/2 -translate-x-1/2"
     >
       <div
-        class="justify-between items-center flex w-full max-w-6xl h-16 lg:h-24 px-4"
+        class="justify-between items-center flex w-full max-w-6xl h-16 lg:h-24 px-4 "
       >
         <span class="text-green text-2xl font-semibold">Fabricyo Ribeiro</span>
         <img src="src/icons/menu.svg" class="lg:hidden" alt="" />
-        <ul class="text-gray-300 text-xl flex gap-8 max-lg:hidden">
+        <ul class="lg:text-gray-300 text-xl flex gap-8 max-lg:hidden">
           <li><a href="#home">Inicio</a></li>
           <li><a href="#about">Quem sou</a></li>
-          <li><a href="">Experiências</a></li>
           <li><a href="">Projetos</a></li>
           <li><a href="#knowledge">Conhecimentos</a></li>
         </ul>
+      </div>
+      <div
+        class="hidden max-w-6xl px-4 top-0 left-0 fixed w-screen h-screen bg-darkgray text-xl text-white z-10"
+      >
+        <div class="flex justify-between items-center pt-4">
+          <span class="text-green text-2xl font-semibold">Fabricyo Ribeiro</span>
+          <img src="src/icons/x.svg" class="lg:hidden" alt="" />
+        </div>
+        <div class="h-[70vh] flex flex-col justify-center items-center">
+          <ul class=" text-xl flex flex-col justify-center items-center gap-6 ">
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#about">Quem sou</a></li>
+            <li><a href="">Projetos</a></li>
+            <li><a href="#knowledge">Conhecimentos</a></li>
+          </ul>
+          <button class="bg-lightgreen text-white rounded-full px-6 py-4 mt-12">
+            Entrar em contato
+          </button>
+        </div>
       </div>
     </nav>
     <main id="home" class="h-screen">
@@ -55,7 +72,7 @@
             <button
               class="bg-lightgreen text-white text-xl w-60 p-4 rounded duration-500 max-lg:self-center hover:w-64"
             >
-              <a href="">GitHub</a>
+              <a href="https://github.com/fabricyoribeiro">GitHub</a>
             </button>
           </div>
           <div class="max-lg:hidden">
