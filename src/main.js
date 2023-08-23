@@ -32,6 +32,7 @@ window.onload = function () {
         breakpoint: 320,
         options: {
           maxParticles: 0
+          
 
           // disables particles.js
         }
