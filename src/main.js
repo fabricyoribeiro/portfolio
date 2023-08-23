@@ -40,9 +40,9 @@ window.onload = function () {
   })
 }
 
-// window.addEventListener("load", ()=> {
-//   alert('Este portfolio ainda está em desenvolvimento :)')
-// })
+window.addEventListener("load", ()=> {
+  alert('Este portfolio ainda está em desenvolvimento :)')
+})
 
 window.addEventListener('scroll', showNavOnScroll)
 
