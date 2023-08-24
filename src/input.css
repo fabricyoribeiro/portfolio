@@ -6,11 +6,11 @@
   @apply bg-darkgray flex justify-center items-center w-32 h-32 p-4 border border-gray-800 rounded hover:duration-1000 hover:border hover:border-green;
 }
 
-@layer utilities{
+/* @layer utilities{
   .shadow-article{
     box-shadow: 0 0 7px 0px #33A365;
   }
-}
+} */
 
 /* Estilos para a barra de rolagem */
 ::-webkit-scrollbar {
@@ -32,21 +32,3 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #03a049; /* Cor do polegar ao passar o mouse */
 }
-
-/* html,
-body {
-  margin: 0;
-
-  padding: 0;
-}
-.background {
-  position: absolute;
-
-  display: block;
-
-  top: 0;
-
-  left: 0;
-
-  z-index: 0;
-} */
